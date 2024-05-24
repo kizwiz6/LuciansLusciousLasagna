@@ -38,11 +38,7 @@ namespace LuciansLusciousLasagna
         }
 
         // Returns the total elapsed time in minutes, including preparation and baking time.
-        public int ElapsedTimeInMinutes(int numberOfLayers, int timeInOven)
-        {
-            return PreparationTimeInMinutes(numberOfLayers) + timeInOven;
-        }
-
+        public int ElapsedTimeInMinutes(int numberOfLayers, int timeInOven) => PreparationTimeInMinutes(numberOfLayers) + timeInOven;
 
     }
 }
