@@ -15,10 +15,8 @@ namespace LuciansLusciousLasagna
         /// Returns the expected number of minutes the lasagna should be in the oven.
         /// </summary>
         /// <returns></returns>
-        public int ExpectedMinutesInoven()
-        {
-            return ExpectedOvenTime;
-        }
+        public int ExpectedMinutesInoven() => ExpectedOvenTime;
+
 
         /// <summary>
         /// Returns the remaining minutes the lasagna needs to be in the oven.
