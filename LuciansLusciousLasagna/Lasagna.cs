@@ -23,10 +23,8 @@ namespace LuciansLusciousLasagna
         /// </summary>
         /// <param name="timeInOven"></param>
         /// <returns></returns>
-        public int RemainingMinutesInOven(int timeInOven)
-        {
-            return ExpectedOvenTime - timeInOven;
-        }
+        public int RemainingMinutesInOven(int timeInOven) => ExpectedOvenTime - timeInOven;
+
 
         /// <summary>
         /// Returns the preparation time in minutes given the number of layers.
